@@ -8,7 +8,7 @@ export const AppContent = createContext();
 export const AppContextProvider = (props) => {
   axios.defaults.withCredentials = true;
 
-  const backendURL = import.meta.env.NODE_ENV === "developement" ? import.meta.env.VITE_BACKEND_URL: "/";
+  const backendURL = import.meta.env.NODE_ENV === "developement" ? import.meta.env.VITE_BACKEND_URL : "";
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [userData, setUserData] = useState(false);
   const [todoslist, setTodosList] = useState([]);
