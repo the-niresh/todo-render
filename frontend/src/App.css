@@ -1,0 +1,16 @@
+.todo_board_app {
+    display: grid;
+    grid-template-rows: 150px auto;
+  }
+
+  .todo_board_main {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 8%;
+  }
+
+  .tobo_board_task_column {
+    width: 33.33%;
+    background-color: tomato;
+    margin: 20px;
+  }
